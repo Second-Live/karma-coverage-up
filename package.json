@@ -1,6 +1,6 @@
 {
 	"name": "karma-coverage-up",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Karma coverage which base on Playwright",
 	"main": "index.js",
 	"scripts": {
@@ -37,6 +37,6 @@
 		"istanbul-lib-report": "^3.0.1",
 		"istanbul-reports": "^3.1.7",
 		"micromatch": "^4.0.7",
-		"playwright-chromium": "^1.44.1"
+		"playwright-chromium": "^1.40.0"
 	}
 }
