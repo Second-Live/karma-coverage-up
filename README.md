@@ -24,7 +24,7 @@ module.exports = function(config) {
     }
   });
 };
-
+```
 
 # Configuration
 
@@ -73,4 +73,3 @@ you set a relative path, the directory is resolved against the `basePath`.
 **Type:** Array of String
 
 **Description:** List of Paths which need to analyze
-```
