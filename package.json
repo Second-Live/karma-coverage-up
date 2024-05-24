@@ -1,0 +1,42 @@
+{
+	"name": "karma-coverage-up",
+	"version": "1.0.0",
+	"description": "Karma coverage which base on Playwright",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Second-Live/karma-coverage-up.git"
+	},
+	"keywords": [
+		"karma",
+		"coverage",
+		"playwright"
+	],
+	"author": "Anton Shchekota",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Second-Live/karma-coverage-up/issues"
+	},
+	"prettier": {
+		"endOfLine": "auto",
+		"singleAttributePerLine": true,
+		"singleQuote": true,
+		"trailingComma": "none",
+		"useTabs": true
+	},
+	"homepage": "https://github.com/Second-Live/karma-coverage-up#readme",
+	"devDependencies": {
+		"prettier": "^3.2.5"
+	},
+	"dependencies": {
+		"@anthony-redfox/v8-to-istanbul": "^9.3.0",
+		"istanbul-lib-coverage": "^3.2.2",
+		"istanbul-lib-report": "^3.0.1",
+		"istanbul-reports": "^3.1.7",
+		"micromatch": "^4.0.7",
+		"playwright-chromium": "^1.44.1"
+	}
+}
